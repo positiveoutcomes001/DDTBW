@@ -211,7 +211,14 @@
         margin-top: -25px;
         font-size: 45px;}
 
-
+        #correctAnswerTen{
+          font-size: 15px;
+        }
+        
+          
+          #penalityOrRewardTen{
+          font-size: 15px;
+        }
 
  
   .continue{
