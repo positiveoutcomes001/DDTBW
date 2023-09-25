@@ -488,7 +488,7 @@ function askQuestionSix(){
         var incorrectAnswerSixA = sessionStorage.getItem('insulation')
         var incorrectAnswerSixB = sessionStorage.getItem('tolietPaper')
        
-        document.getElementById('correctAnswer').innerHTML = 'The original purpose of bubblewrap was to be used as wallpaper. '
+        document.getElementById('correctAnswerSix').innerHTML = 'The original purpose of bubblewrap was to be used as wallpaper. '
     
     
     if(sessionStorage.getItem('playerChoiceSix') == correctAnswerSixA ) {
@@ -789,7 +789,7 @@ function askQuestionTen(){
         var incorrectAnswerTenA = sessionStorage.getItem('cocaCola')
         var incorrectAnswerTenB = sessionStorage.getItem('unilever')
        
-        document.getElementById('correctAnswer').innerHTML = 'The longest TV commercial by duration was 14 hours long, and was produced by Procter & Gamble (Brazil), promoting Old Spice Deodorant, and aired in São Paulo, São Paulo, Brazil, on 8 December 2018.'
+        document.getElementById('correctAnswerTen').innerHTML = 'The longest TV commercial by duration was 14 hours long, and was produced by Procter & Gamble (Brazil), promoting Old Spice Deodorant, and aired in São Paulo, São Paulo, Brazil, on 8 December 2018.'
     
     
     if(sessionStorage.getItem('playerChoiceTen') == correctAnswerTenA ) {

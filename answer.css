@@ -211,27 +211,27 @@
         margin-top: -25px;
         font-size: 45px;}
 
-        /*
         #correctAnswerSix{
-          font-size: 15px;
+          color:white;
+          font-size:25px;
         }
-        
-          
-          #penalityOrRewardSix{
-          font-size: 15px;
-        }
-
-
 
         #correctAnswerTen{
-          font-size: 15px;
+          color:white;
+          font-size:25px;
         }
-        
-          
-          #penalityOrRewardTen{
-          font-size: 15px;
+
+        #penalityOrRewardSix{
+          color:white;
+          font-size:25px;
         }
-*/
+
+        #penalityOrRewardTen{
+          color:white;
+          font-size:25px;
+        }
+
+
  
   .continue{
     
