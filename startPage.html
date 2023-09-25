@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Start Page</title>
+<script src="gameLogic.js"> </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: green;
+  height: 60px;
+  font-size: 25px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* Style the content */
+.content {
+  background-color: rgb(64, 255, 47);
+  padding: 10px;
+  height: 700px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 20px;
+}
+
+input{ 
+  width: 280px;
+  font-size: 50px ;
+  border-radius: 10px;
+ 
+}
+
+.continue{
+   
+  font-size: 45px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+.continue a :hover{
+  background-color: grey;
+}
+
+
+/* Style the footer */
+.footer {
+  background-color: green;
+  padding: 10px;
+  color: white;
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="rules.html">Rules</a>
+</div>
+
+<div class="content">
+  <h2>Don't Dare To Be Wrong!</h2>
+  
+
+
+        <form class="interaction" id="Form" method="GET" action="questionOne.html">
+ 
+            <input class="nameInput" type="text" name="nameOne" id="playerOneName" required placeholder="Enter Name Here"></input>
+            <br>
+            <br>
+            
+            <input class="nameInput" type="text" name="nameTwo" id="playerTwoName" required placeholder="Enter Name Here"></input>
+            <br>
+            <br>
+          
+            <input class="nameInput" type="text" name="nameThree" id="playerThreeName" required placeholder="Enter Name Here"></input>
+            <br>
+            <br>
+
+            <input class="nameInput" type="text" name="nameFour" id="playerFourName"  required placeholder="Enter Name Here"></input>
+            
+            <br>
+            <p>(4 players required)</p>
+            <br>
+
+            <button class="continue" type="submit"  onclick= "getNames();">Start Game</button>
+
+        </form>
+</div>
+
+<div class="footer">
+  <p>Prototype by Dre Lee</p>
+</div>
+
+</body>
+</html>
+
